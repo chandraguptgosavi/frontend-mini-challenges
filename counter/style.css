@@ -1,0 +1,28 @@
+body{
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.counter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn{
+    background-color: #5affd8;
+    height: 2.5em;
+    border-radius: 0.25em;
+    border-width: 1px;
+    font-size: 1rem;
+    padding: 0 1em;
+}
+
+.counter-actions, .counter-input, .reset{
+    margin: 0.5em 0; 
+}
+
+.count-by{
+    width: 3em;
+    height: 2em;
+}
