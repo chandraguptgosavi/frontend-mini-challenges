@@ -1,0 +1,75 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.toast-setting {
+  margin: 0.5em 0;
+}
+
+.btn {
+  background-color: #5affd8;
+  height: 2.5em;
+  border-radius: 0.25em;
+  border-width: 1px;
+  font-size: 1rem;
+  padding: 0 1em;
+  margin: 0.5em 0;
+}
+
+.message-box {
+  position: fixed;
+  display: none;
+  background-color: pink;
+  padding: 0.5em 1em;
+  border-radius: 0.25em;
+}
+
+.display-message-box {
+  display: block;
+}
+
+.top-left {
+  top: 1em;
+  left: 1em;
+}
+
+.top-center {
+  top: 1em;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.top-right {
+  top: 1em;
+  right: 1em;
+}
+
+.center-left {
+  left: 1em;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.center-right {
+  right: 1em;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.bottom-left {
+  bottom: 1em;
+  left: 1em;
+}
+
+.bottom-center {
+  bottom: 1em;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.bottom-right {
+  bottom: 1em;
+  right: 1em;
+}
