@@ -1,0 +1,33 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.progress-container, .password-input{
+    width: 20rem;
+    margin: 0.5em 0;
+}
+
+p{
+    margin: 0.5em 0;
+}
+
+.password-input{
+    font-size: 1.5rem;
+}
+
+.progress-container{
+    border: 1px solid gray;
+    background-color: white;
+    border-radius: 0.25em;
+    height: 0.5em;
+    position: relative;
+}
+
+.progressbar{
+    height: 100%;
+    transition: all 0.25s ease-in-out;
+    position: absolute;
+    left: 0;
+}
