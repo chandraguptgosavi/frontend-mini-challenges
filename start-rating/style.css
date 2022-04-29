@@ -1,0 +1,24 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container > div{
+    margin: 1rem 0;
+}
+
+.star-empty::before {
+  content: "☆";
+}
+
+.star-filled::before {
+  color: rgba(231, 198, 10, 0.685);
+  content: "★";
+  cursor: pointer;
+}
+
+.stars-container, .emoji-container{
+    font-size: 3rem;
+}
+
