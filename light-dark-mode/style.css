@@ -1,0 +1,23 @@
+* {
+    --dark: black;
+    --light: white;
+}
+
+.container, .middle-container, .inner-container{
+    padding: 1em;
+}
+
+.inner-container{
+    border: 1px solid blue;
+}
+
+.dark, 
+#inner-checkbox:checked + .inner-container{
+    color: var(--light);
+    background-color: var(--dark);
+}
+
+#inner-checkbox + .inner-container{
+    color: var(--dark);
+    background-color: var(--light);
+}
